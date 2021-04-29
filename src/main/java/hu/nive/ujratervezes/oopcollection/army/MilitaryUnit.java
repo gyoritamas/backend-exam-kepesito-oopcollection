@@ -22,8 +22,4 @@ public abstract class MilitaryUnit {
     public int getHitPoints() {
         return hitPoints;
     }
-
-    public int getAttackPower() {
-        return attackPower;
-    }
 }

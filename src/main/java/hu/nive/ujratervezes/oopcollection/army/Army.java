@@ -24,7 +24,7 @@ public class Army {
             return 0;
 
         return militaryUnitList.stream()
-                .map(MilitaryUnit::getAttackPower)
+                .map(MilitaryUnit::doDamage)
                 .reduce(Integer::sum).get();
     }
 
